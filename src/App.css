@@ -55,9 +55,11 @@ input[type=text], select {
   border-radius: 5px;
     background-image:url('leaf.jpg');
     padding: 20px;
+    
 }
 
 .duongchat{
+  
   color:white;
   font-size:20px;
 }
@@ -65,4 +67,26 @@ input[type=text], select {
   color: white;
   font-size:30px;
   font-family: system-ui;
+}
+table{
+  width: 70%;
+}
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.ketqua{
+  padding-left:210px;
 }
