@@ -28,7 +28,7 @@
 }
 input[type=submit] {
   width: 30%;
-  background-color: #4CAF50;
+  background-color: rgb(21, 103, 21);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -36,9 +36,24 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
+button{
+  width: 20%;
+  background-color: rgb(211, 17, 36);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover{
+  background-color:rgb(238, 141, 225);
+  color:red;
+}
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: rgb(24, 240, 32);
+  color:green;
 }
 
 input[type=text], select {
@@ -65,7 +80,7 @@ input[type=text], select {
 }
 .tieude{
   color: white;
-  font-size:30px;
+  font-size:40px;
   font-family: system-ui;
 }
 table{

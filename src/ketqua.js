@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+import {NavLink} from 'react-router-dom';
 export default class ketqua extends Component {
   render() {
     return (
@@ -36,6 +36,9 @@ export default class ketqua extends Component {
           </tr>
         </tbody>
       </table>
+      <NavLink to="/">
+      <button>TRỞ VỀ</button>
+      </NavLink>
       </div>
         
         </div>
